@@ -16,7 +16,7 @@ namespace WebAppSSLManager
 {
     public static class AzureHelper
     {
-        private static ILogger _logger;;
+        private static ILogger _logger;
         private static IAzure _azure;
         private static CloudBlobClient _blobClient;
         private static CloudBlobContainer _blobContainer;
